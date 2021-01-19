@@ -1,0 +1,9 @@
+
+      ImageIcon   ico = new ImageIcon(ÄãµÄÍ¼Æ¬µØÖ·);
+       JLabel  picture = new JLabel(ico);
+        picture.setBounds(0, 0, ico.getIconWidth(), ico.getIconHeight());
+        this.getLayeredPane().add(picture, new Integer(Integer.MIN_VALUE));
+        JPanel p = (JPanel) this.getContentPane();
+        p.setOpaque(false);
+        add(new JLabel(""));
+        setSize(ico.getIconWidth(), ico.getIconHeight());
